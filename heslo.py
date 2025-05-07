@@ -1,9 +1,10 @@
 import random
 
-znaky = ['#', '@', '%']
+zraso = ["Kačenka se Zelím","KnedloVepřoZelo","Vepřová játra na roštu se smaženými hranolky a naší tatarskou omáčkou","Staročeská bašta","Roláda z krůtích stehen, medvědí česnek, bylinky podávaná s pečeným bramborem a glazovanou mrkví"]
 
-v3 = random.choice(znaky)
+v = (random.choice(zraso))
 
-index = znaky.index(v3)
+osm = zraso.index(v)
 
-print("Vybral jsem znak " + v3 + " na indexu " + str(index))
+print("Vybral jsem jídlo",v,"co se vybralo","na indexu",osm)
+
